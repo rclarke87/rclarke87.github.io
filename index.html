@@ -9,12 +9,11 @@
         Hello, I'm <span class="wibble">Rutger</span>,<br>
         I'm a self-taught developer...
     </h1>
-    <nav>
+    <nav class="navbar">
         <ul>
             <li><a href="#about-me">About Me</a></li>
             <li><a href="#projects">My Projects</a></li>
             <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -22,10 +21,11 @@
         <p>
           I’m an INTP- for those in the know, you know. A programme manager by day, maker by night, 
           blending creativity and logic to improve systems. Whether coding, 3D printing, brewing beer, 
-          or exploring DIY electronics, I’m always driven by a desire to learn, understand, and create.
+          or exploring DIY electronics, I’m always driven by a desire to learn, understand and... <br>
+          uhh, create!
         </p>
         <p>
-          My journey into full-stack development began with self-hosting to regain digital sovereignty.
+          My journey into full-stack development began with building a server and exploring self-hosting to regain digital sovereignty.
            This led me to explore backend architecture, service deployment, and digital infrastructure. 
            Pairing these with frontend technologies, I now craft web apps that are seamless, user-friendly,
             and efficient.
@@ -73,28 +73,41 @@
       
       <section id="blog">
         <h2>Blog</h2>
-        <div class="blog-post">
-            <h3 class="blog-title">How I Got Started in Web Development</h3>
-            <p class="blog-snippet">
-                My journey into coding began with a simple desire: understanding how websites work...
-            </p>
-            <a href="#" class="blog-link">Read More</a>
-        </div>
-        <div class="blog-post">
-            <h3 class="blog-title">Top Tools for Self-Hosting Enthusiasts</h3>
-            <p class="blog-snippet">
-                If you're interested in self-hosting, these are the must-have tools to get started...
-            </p>
-            <a href="#" class="blog-link">Read More</a>
-        </div>
-        <div class="blog-post">
-            <h3 class="blog-title">Lessons Learned from My First Full-Stack Project</h3>
-            <p class="blog-snippet">
-                Building my first full-stack app was challenging, but it taught me valuable lessons...
-            </p>
-            <a href="#" class="blog-link">Read More</a>
-        </div>
-    </section>
+        <article class="featured-post">
+          <header class="blog-header">
+            <h3 class="blog-title">From Passion to Portfolio: My Journey into Full-Stack 
+              Development</h3>
+            <p class="blog-meta">Published: 9th December 2024, 14:30</p>
+          </header>
+          <p class="blog-content">
+            I recently turned 37 and made the decision to try my hand at full-stack development—a 
+            journey fuelled by my love for problem-solving, technology, and creating meaningful 
+            projects. With a background in transformation programme management, I’ve always enjoyed 
+            collaborating with others to deliver seemingly magical solutions, streamlining processes 
+            and delivering innovative, but I wanted to take this a step further by building the
+            solutions myself.
+          </p>
+          <p class="blog-content">
+            Alongside this transition, I’ve embraced my passion for self-hosting, maintaining a 
+            Proxmox server that powers a range of services—from media streaming to file storage. T
+            his hands-on experience has given me a deep appreciation for managing systems and making 
+            the most of the tools available to developers today. 
+          </p>
+          <p class="blog-content">
+            My journey has also involved merging my hobbies with my development work. Take <strong>RideFix</strong>, for example—a cycling maintenance app designed to gamify bike care while providing users with practical tools to track their bike’s condition. The app is a reflection of my interests in cycling, gamification, and creating software that solves real problems.
+          </p>
+          <p class="blog-content">
+            These experiences form the backbone of my portfolio and represent what I bring to 
+            full-stack development: an eagerness to learn, a strong technical foundation, and a 
+            passion for building tools that make life easier and more enjoyable. If you’d like to 
+            learn more about my projects, check out my posts on 
+            <a href="#" class="blog-link">self-hosting</a>, 
+            <a href="#" class="blog-link">RideFix</a>, 
+            and <a href="#" class="blog-link">how I got started in full-stack development</a>.
+          </p>
+        </article>
+      </section>
+      
 
 <section id="contact">
   
