@@ -76,6 +76,7 @@ a:hover, a:active {
 /* Animated Text */
 .wibble {
   display: inline-block;
+  margin-left: 5px;
   color: var(--accent-color);
   font-style: italic;
   animation: wiggle 2s infinite;
