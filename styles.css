@@ -44,6 +44,8 @@ h1 {
   max-width: 25rem;
   margin: auto;
   padding-bottom: 3rem;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 /* Navigation */
@@ -66,6 +68,17 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
+}
+
+#about-me {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+#blog {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-align: left;
 }
 
 /* Links */
