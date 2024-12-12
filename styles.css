@@ -1,9 +1,8 @@
-/* Reduce rem base to 75% of default (16px -> 12px) */
+
 html {
   font-size: 12px;
 }
 
-/* Maintain mobile-friendly font size */
 @media (max-width: 768px) {
   html {
     font-size: 16px; /* Or another size that suits mobile */
@@ -41,6 +40,12 @@ h1 {
   margin-block-end: 1em;
 }
 
+#profile {
+  max-width: 25rem;
+  margin: auto;
+  padding-bottom: 3rem;
+}
+
 /* Navigation */
 nav {
   margin-top: 0x;
@@ -76,7 +81,6 @@ a:hover, a:active {
 /* Animated Text */
 .wibble {
   display: inline-block;
-  margin-left: 5px;
   color: var(--accent-color);
   font-style: italic;
   animation: wiggle 2s infinite;
@@ -145,4 +149,4 @@ a:hover, a:active {
 
 .project-link:hover {
   background-color: #000000;
-}html#contact
+}
