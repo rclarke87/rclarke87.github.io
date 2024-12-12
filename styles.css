@@ -11,8 +11,8 @@ html {
 
 :root {
   --primary-color: #707070;
-  --secondary-color: #bcd647;
-  --accent-color: #A9C33F;
+  --secondary-color: #9cf3bd;
+  --accent-color: #47df81;
   --background-color: #000000;
   --text-color: #D0D4C8;
   --secondary-text: #585858;
@@ -79,6 +79,12 @@ nav ul li a {
   margin-left: 2rem;
   margin-right: 2rem;
   text-align: left;
+  margin-bottom: 3rem;
+}
+
+.blog-meta {
+  font-style: italic;
+  font-size: 1.5rem;
 }
 
 /* Links */
@@ -88,7 +94,7 @@ a {
 }
 
 a:hover, a:active {
-  color: #D7E86E;
+  color: var(--secondary-color);
 }
 
 /* Animated Text */
@@ -113,31 +119,25 @@ a:hover, a:active {
 /* Projects Section */
 .project-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(560px, 1fr));
-  gap: 20px;
-  padding: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 3rem;
+  padding: 2.5rem;
 }
 
 .project-overview {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15px;
+  padding: 3rem;
   border: 1px solid var(--accent-color);
-  border-radius: 15px;
+  border-radius: 3rem;
   background: linear-gradient(#141414, #1C1E24);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 1s ease, box-shadow 1s ease;
 }
 
 .project-overview:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 10px var(--primary-color);
-}
-
-.project-thumbnail {
-  width: 100%;
-  border-radius: 5px;
-  margin-bottom: 10px;
 }
 
 .project-title {
