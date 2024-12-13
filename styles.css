@@ -11,7 +11,7 @@ html {
 
 :root {
   --primary-color: #707070;
-  --secondary-color: #7abfffd7;
+  --secondary-color: #a9d4fdd7;
   --accent-color: #7abfffd7;
   --background-color: #000000;
   --text-color: #D0D4C8;
@@ -71,6 +71,7 @@ nav ul li a {
 #about-me {
   margin-left: 2rem;
   margin-right: 2rem;
+  margin-bottom: 3rem;
 }
 
 #blog {
@@ -78,6 +79,7 @@ nav ul li a {
   margin-right: 2rem;
   text-align: left;
   margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 
 .blog-meta {
@@ -139,19 +141,19 @@ a:hover, a:active {
 }
 
 .project-title {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   margin-bottom: 10px;
 }
 
 .project-description {
-  font-size: 2rem;
+  font-size: 3rem;
   color: var(--accent-color);
 }
 
 .project-link {
   display: inline-block;
   padding: 10px 25px;
-  font-size: 2rem;
+  font-size: 3rem;
   color:#000000;
   background-color: var(--secondary-color);
   border-radius: 4px;
