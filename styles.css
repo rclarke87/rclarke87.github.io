@@ -1,6 +1,6 @@
 
 html {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 @media (max-width: 768px) {
@@ -11,9 +11,9 @@ html {
 
 :root {
   --primary-color: #707070;
-  --secondary-color: #a9d4fdd7;
-  --accent-color: #7abfffd7;
-  --background-color: #000000;
+  --secondary-color: #9041df;
+  --accent-color: #663399; 
+  --background-color: #111111;
   --text-color: #D0D4C8;
   --secondary-text: #585858;
 }
@@ -141,19 +141,19 @@ a:hover, a:active {
 }
 
 .project-title {
-  font-size: 3.5rem;
+  font-size: 2.2rem;
   margin-bottom: 10px;
 }
 
 .project-description {
-  font-size: 3rem;
+  font-size: 1.8rem;
   color: var(--accent-color);
 }
 
 .project-link {
   display: inline-block;
   padding: 10px 25px;
-  font-size: 3rem;
+  font-size: 2rem;
   color:#000000;
   background-color: var(--secondary-color);
   border-radius: 4px;
