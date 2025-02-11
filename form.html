@@ -33,70 +33,67 @@
 
         <h1 class="mb-5">Get in Touch</h1>
 
-        <p class="mb-5">Community is what makes us great, and we’re dedicated to making RideFixr even better. We’d love to hear your suggestions, feature requests, or even help squash any bugs you’ve encountered. Your input plays a key role in shaping the future of RideFixr, so don’t hesitate to reach out and share your thoughts!</p>
+        <p class="mb-5">Our community is what makes us exceptional, and we're committed to making RideFixr even better. We welcome your suggestions, feature requests, or reports on any bugs you've come across. Your feedback is crucial in shaping the future of RideFixr, so feel free to reach out and share your thoughts with us!</p>
 
-        <form action="https://formspree.io/f/xnnjbdgo" method="post" class="row g-3">
-            <!-- First Name -->
-            <div class="col-md-6">
-                <label for="first-name" class="form-label">First Name <span class="text-danger">*</span></label>
-                <input type="text" id="first-name" name="first-name" class="form-control" required>
-            </div>
-
-            <!-- Last Name -->
-            <div class="col-md-6">
-                <label for="last-name" class="form-label">Last Name <span class="text-danger">*</span></label>
-                <input type="text" id="last-name" name="last-name" class="form-control" required>
-            </div>
-
-            <!-- Email -->
-            <div class="col-md-6">
-                <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
-                <input type="email" id="email" name="email" class="form-control" required>
-            </div>
-
-            <!-- Country -->
-            <div class="col-md-6">
-                <label for="country" class="form-label">Country</label>
-                <input type="text" id="country" name="country" class="form-control">
-            </div>
-
-            <!-- Phone Number -->
-            <div class="col-md-6">
-                <label for="phone" class="form-label">Phone Number</label>
-                <input type="tel" id="phone" name="phone" class="form-control">
-            </div>
-
-            <!-- Topic -->
-            <div class="col-md-6">
-                <label for="topic" class="form-label">Select Your Topic <span class="text-danger">*</span></label>
-                <select id="topic" name="topic" class="form-select" required>
-                    <option value="" disabled selected>Select a Topic</option>
-                    <option value="bug-report">Bug Report</option>
-                    <option value="feature-request">Feature Request</option>
-                    <option value="account-issue">Account Issue</option>
-                    <option value="payment-issue">Payment Issue</option>
-                    <option value="other">Other</option>
-                </select>
-            </div>
-            
-            <!-- Order Number -->
-            <div class="col-md-6">
-                <label for="order-number" class="form-label">Order Number (if relevant)</label>
-                <input type="text" id="order-number" name="order-number" class="form-control">
-            </div>
-
-            <!-- Message -->
-            <div class="col-12">
-                <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
-                <label for="message" class="form-label explain">Explain why you are reaching out to us, in as much detail as possible</label>
-                <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
-            </div>
-
-            <!-- Submit Button -->
-            <div class="col-12">
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-        </form>
+                <form action="https://formspree.io/f/xnnjbdgo" method="post" class="row g-3">
+                    <!-- First Name -->
+                    <div class="col-md-3">
+                        <label for="first-name" class="form-label">First Name <span class="text-danger">*</span></label>
+                        <input type="text" id="first-name" name="first-name" class="form-control" required>
+                    </div>
+                
+                    <!-- Last Name -->
+                    <div class="col-md-3">
+                        <label for="last-name" class="form-label">Last Name <span class="text-danger">*</span></label>
+                        <input type="text" id="last-name" name="last-name" class="form-control" required>
+                    </div>
+                
+                    <!-- Email -->
+                    <div class="col-md-4">
+                        <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                
+                    <!-- New row for Country, Topic, and Order Number -->
+                    <div class="w-100"></div> <!-- Forces a new row -->
+                
+                    <!-- Country -->
+                    <div class="col-md-3">
+                        <label for="country" class="form-label">Country</label>
+                        <input type="text" id="country" name="country" class="form-control">
+                    </div>
+                
+                    <!-- Topic -->
+                    <div class="col-md-3">
+                        <label for="topic" class="form-label">Select Your Topic <span class="text-danger">*</span></label>
+                        <select id="topic" name="topic" class="form-select" required>
+                            <option value="" disabled selected>Select a Topic</option>
+                            <option value="bug-report">Bug Report</option>
+                            <option value="feature-request">Feature Request</option>
+                            <option value="account-issue">Account Issue</option>
+                            <option value="payment-issue">Payment Issue</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                
+                    <!-- Order Number -->
+                    <div class="col-md-4">
+                        <label for="order-number" class="form-label">Order Number (if relevant)</label>
+                        <input type="text" id="order-number" name="order-number" class="form-control">
+                    </div>
+                
+                    <!-- Message -->
+                    <div class="col-8">
+                        <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
+                        <label for="message" class="form-label explain">Explain why you are reaching out to us, in as much detail as possible</label>
+                        <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                    </div>
+                
+                    <!-- Submit Button -->
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
