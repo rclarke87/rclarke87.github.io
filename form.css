@@ -1,0 +1,9 @@
+body {
+    background: #e6e6e6;
+    color: rgb(22, 22, 22);
+}
+
+.explain {
+    display: block;
+    font-style: italic ;
+}
