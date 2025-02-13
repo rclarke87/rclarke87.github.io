@@ -17,3 +17,13 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const hero = document.getElementById("hero");
+    const highResImage = new Image();
+    highResImage.src = "images/hero.webp";
+    highResImage.onload = function () {
+        hero.classList.add("loaded");
+    };
+});
