@@ -91,3 +91,8 @@ h2 {
   border: 2px solid #000; /* Your desired border style */
   padding: 10px; /* Optional: Add padding inside the border */
 }
+
+.profile-circle {
+  max-width: 7em;
+
+}

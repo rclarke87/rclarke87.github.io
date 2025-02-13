@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RideFixr Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="ridefixr-styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cycle.html">My Bikes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Community</a></li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="form.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="alerts.html">Alerts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container mt-4">
+        <div class="card p-4">
+            <div class="d-flex align-items-center">
+                <img src="images/roundedprofile.png" class="profile-circle rounded-circle me-3" alt="Profile Picture">
+                <div>
+                    <h2 class="mb-0">Rutger Clarke</h2>
+                    <p class="text-muted">Community contributor | Level 12</p>
+                </div>
+            </div>
+            
+            <!-- XP Progress Bar -->
+            <div class="mt-3">
+                <h6>XP Progress</h6>
+                <div class="progress" style="height: 20px;">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">6500 XP</div>
+                </div>
+            </div>
+            
+            <!-- Badges -->
+            <div class="mt-4">
+                <h6>Achievements</h6>
+                <div class="d-flex gap-2">
+                    <span class="badge bg-warning text-dark">🚴 100KM Rider</span>
+                    <span class="badge bg-primary">🏆 Top 10 Leaderboard</span>
+                    <span class="badge bg-danger">🔥 Streak: 7 Days</span>
+                </div>
+            </div>
+            
+            <!-- Leaderboard Ranking -->
+            <div class="mt-4">
+                <h6>Leaderboard Rank</h6>
+                <p class="fs-5">#7 <small class="text-muted">(Top 5%)</small></p>
+            </div>
+            
+            <!-- Recent Activity -->
+            <div class="mt-4">
+                <h6>Recent Activity</h6>
+                <ul class="list-group">
+                    <li class="list-group-item">🚴 Rode 25KM - +250 XP</li>
+                    <li class="list-group-item">🔥 Maintained a 5-day streak</li>
+                    <li class="list-group-item">🏆 Climbed 2 ranks in the leaderboard</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
