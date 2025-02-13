@@ -1,5 +1,6 @@
 .header-container {
-  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url('./images/hero-blur.webp');
+  background: #000 linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url('./images/hero-blur.webp');
+  background: #000 url('./images/hero-blur.webp');
   background-size: cover;
   background-position: bottom right;
   background-repeat: no-repeat;
@@ -8,9 +9,11 @@
 
 .header-container.loaded {
   background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url('./images/hero.webp');
+  background: url('./images/hero.webp');
   background-size: cover;
   background-position: bottom right;
   background-repeat: no-repeat;
+  transition: background-image 0.5s ease-in-out;
 }
 
 .header-container::after {
