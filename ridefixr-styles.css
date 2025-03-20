@@ -75,7 +75,7 @@
 }
 
 .nav-link{
-    color: #394731;
+    color: #e0e7cd;
 }
 
 @keyframes wobble {
@@ -104,4 +104,8 @@ h2 {
 .profile-circle {
   max-width: 7em;
 
+}
+
+.hidden {
+  display: none;
 }
