@@ -31,11 +31,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Load DOM before running any code
 document.addEventListener("DOMContentLoaded", function () {
-  // Get a reference to the register button element
-  const registerButton = document.querySelector(".registerButton");
+  // Get a reference to the form element
+  const form = document.querySelector(".registerForm form");
 
-  // Event listener to the register button
-  registerButton.addEventListener("click", function () {
+  // Add event listener to the form's submit event
+  form.addEventListener("submit", function (event) {
+    // Prevent the default form submission
+    event.preventDefault();
+
     // Hide the registration form
     document.querySelector(".registerForm").style.display = "none";
 
@@ -45,7 +48,5 @@ document.addEventListener("DOMContentLoaded", function () {
     successElement.classList.remove("hidden");
     // Explicitly set the display style to 'block' to ensure visibility
     successElement.style.display = "block";
-    // Set h3 text to bootstrap warning
-    successElement.querySelector("h3").classList.add("text-warning");
   });
 });

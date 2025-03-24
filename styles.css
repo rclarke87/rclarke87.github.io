@@ -75,7 +75,17 @@
 }
 
 .nav-link{
-    color: #e0e7cd;
+    color: #ffea00;
+}
+
+.nav-link:hover{
+  color: #fcf7c3;
+  ;
+}
+
+.nav-link:focus{
+  color: #fcf7c3;
+  ;
 }
 
 @keyframes wobble {
