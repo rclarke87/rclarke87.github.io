@@ -78,18 +78,23 @@ body{
 
 }
 
+.navbar {
+    background-color: #111011; /* Replace with your desired navbar background color */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
 .nav-link{
     color: #ffea00;
 }
 
 .nav-link:hover{
   color: #fcf7c3;
-  ;
 }
 
 .nav-link:focus{
   color: #fcf7c3;
-  ;
 }
 .testimonial-container {
   border: 2px solid #000; /* Your desired border style */
